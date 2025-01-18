@@ -49,7 +49,7 @@ if($imie != '' && $nazwisko != '' && $email != '' && $login != '' && $haslo != '
     // polaczyc sie z serwerem mysqli_connect
     // serwer, uzytkownik, haslo, baza
     // $polacz to identyfikator polaczenia
-    $polacz = mysqli_connect("localhost","root","","czat_gr1");
+    $polacz = mysqli_connect("localhost","root","","czat");
 
     // tworzymy zapytanie zeby informacje wpisane na str zostaly zapisane w tabeli w bazie
     //$zapytanie = "INSERT INTO `uzytkownicy` VALUES ('','$imie', '$nazwisko', '$email', '$login','$haslo')";
