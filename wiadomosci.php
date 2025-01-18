@@ -26,7 +26,7 @@ $data=date("Y-m-d");
 
 
 
-    $polacz = mysqli_connect("localhost","root","","czat_gr1");    
+    $polacz = mysqli_connect("localhost","root","","czat");    
    
 
     $logowanie = "SELECT `id`  FROM `uzytkownicy`WHERE `login` = '$log'";
